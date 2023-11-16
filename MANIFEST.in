@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include shopify *.css
+recursive-include shopify *.csv
+recursive-include shopify *.html
+recursive-include shopify *.ico
+recursive-include shopify *.js
+recursive-include shopify *.json
+recursive-include shopify *.md
+recursive-include shopify *.png
+recursive-include shopify *.py
+recursive-include shopify *.svg
+recursive-include shopify *.txt
+recursive-exclude shopify *.pyc
